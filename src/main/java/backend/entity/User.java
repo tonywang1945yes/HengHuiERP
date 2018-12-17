@@ -18,6 +18,8 @@ public class User {
     @Column(name="username")
     String username="";
 
+    public User(){}
+
     public User (int id,String username){
         this.id=id;
         this.username=username;
@@ -38,4 +40,6 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
+
+
 }

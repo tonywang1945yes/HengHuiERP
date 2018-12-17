@@ -15,14 +15,15 @@
         <!-- Assume CPdb is the database name -->
         <property name="hibernate.connection.url">
             <!--		[CDATA[jdbc:mysql://localhost:3306/CPdb?useUnicode=true&characterEncoding=utf8&amp;serverTimezone=UTC]]-->
-            jdbc:mysql://localhost:3306/hherp?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false
+            <!--jdbc:mysql://localhost:3306/hherp?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false-->
+            jdbc:mysql://rm-uf66x2wt4r54b1q9djo.mysql.rds.aliyuncs.com:3306/hherp?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false
             <!--		jdbc:mysql://rm-2ze2p651tei9u00zgso.mysql.rds.aliyuncs.com:3306/CPdb?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false -->
         </property>
         <property name="hibernate.connection.username">
             root
         </property>
         <property name="hibernate.connection.password">
-            123456789
+            HengHuiERP123456
         </property>
         <property name="hibernate.show_sql">
             true
