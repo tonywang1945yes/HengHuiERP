@@ -11,6 +11,7 @@ import org.hibernate.cfg.Configuration;
 import javax.persistence.PersistenceException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class HibernateDao<T> implements BasicDatabaseService<T> {
     T type;
@@ -25,7 +26,7 @@ public class HibernateDao<T> implements BasicDatabaseService<T> {
 
     public synchronized DatabaseRM add(T t0) {
         DatabaseRM res=DatabaseRM.SUCCESS;
-
+        String s = "";
         session = sessionFactory.openSession();
         Transaction tx = null;
         try {
