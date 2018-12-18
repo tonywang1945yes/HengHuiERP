@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="50.0" prefWidth="1220.0" style="-fx-background-color: #000;" stylesheets="@../../css/navButton.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.Purchaser.Nav.purchaserNavController">
+<AnchorPane prefHeight="50.0" prefWidth="1200.0" style="-fx-background-color: #000;" stylesheets="@../../css/navButton.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.Purchaser.Nav.purchaserNavController">
    <children>
       <Button layoutX="24.0" layoutY="8.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="147.0" text="  厂家管理" textAlignment="RIGHT" textFill="WHITE">
          <font>

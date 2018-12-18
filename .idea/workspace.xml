@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ff1186-8e02-48ac-b41c-495b1fbd057e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/frontend/Purchaser/Nav/purchaserNavController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/navButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/仓库管理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/厂家管理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/商品规格管理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/报表查看.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/用户管理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/登出.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/货物调拨.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Login/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Nav/StockAdminNav.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Nav/StockAdminNav.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -55,11 +44,21 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-553">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/StockAdminNav.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -88,6 +87,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav/PurchaserNav.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Login/Login.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/css/navButton.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/Nav/StockAdminNav.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml" />
       </list>
     </option>
   </component>
@@ -220,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545106118152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545106289041" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -279,13 +281,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6132000" />
+    <option name="totallyTimeSpent" value="6464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="431" y="23" width="1009" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23371251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23371251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,7 +309,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.11789038" />
+      <window_info active="true" anchor="right" id="Ant Build" order="1" visible="true" weight="0.11789038" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -363,14 +365,6 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/css/navButton.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -385,6 +379,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/StockAdminNav.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Login/Login.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -393,10 +403,10 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/AdminNav.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Nav/PurchaserNav.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
