@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="50.0" prefWidth="1220.0" style="-fx-background-color: #000;" stylesheets="@../../css/navButton.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.Purchaser.Nav.purchaserNavController">
+   <children>
+      <Button layoutX="24.0" layoutY="8.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="147.0" text="  厂家管理" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/厂家管理.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="183.0" layoutY="8.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="175.0" text=" 商品规格管理" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/商品规格管理.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Line endX="20.0" layoutX="143.0" layoutY="25.0" rotate="90.0" startX="50.0" stroke="#fcfcfc" />
+      <Line endX="850.0" layoutX="258.0" layoutY="25.0" rotate="90.0" startX="880.0" stroke="#fcfcfc" />
+      <Label layoutX="1019.0" layoutY="24.0" text="当前用户：张三" textFill="WHITE" />
+      <Button layoutX="1124.0" layoutY="8.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="登出" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/登出.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
